@@ -1,0 +1,4 @@
+fun main(){
+    var a : Long = 1000000000000000
+    println(a)
+}
