@@ -1,0 +1,4 @@
+fun main() {
+     var a=12
+     var b :Int =10
+   println("Sum of " + a + " and " + b+ " is " +(a+b));
