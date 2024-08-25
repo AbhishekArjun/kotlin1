@@ -1,0 +1,5 @@
+fun main(){
+    var a=10
+    var b=30
+    print("sum of $a and $b is ${a+b}");
+}
