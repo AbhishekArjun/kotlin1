@@ -1,0 +1,24 @@
+class Introduction{
+    var name: String = "Modi"
+    var age: Int = 72
+
+    constructor(x:String, y:Int){
+        this.name = x
+        this.age = y
+    }
+    constructor(x:String){
+        this.name = x
+    }
+    constructor()
+}
+
+fun main(){
+    val obj1 = Introduction("Arjun", 19)
+    println(obj1.name + " " + obj1.age)
+
+    val obj2 = Introduction("Arjun",22)
+    println(obj2.name + " " + obj2.age)
+
+    val obj3 = Introduction()
+    println(obj3.name + " " + obj3.age)
+}
